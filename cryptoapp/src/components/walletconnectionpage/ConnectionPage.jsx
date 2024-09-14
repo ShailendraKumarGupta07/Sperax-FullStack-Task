@@ -4,6 +4,7 @@ const ConnectionPage = () =>{
   return (
     <>
     <div>ConnectionPage</div>
+    <div>Starting the new crypto page now </div>
     </>
   )
 }
