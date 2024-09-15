@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ConnectionPage from './components/walletconnectionpage/ConnectionPage'
+import DashboardPage from './components/Dashboard Page/DashboardPage'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
     <ConnectionPage></ConnectionPage>
+    <DashboardPage></DashboardPage>
     </>
   )
 }

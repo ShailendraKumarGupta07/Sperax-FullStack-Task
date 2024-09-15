@@ -1,0 +1,59 @@
+.contentwrapper{
+    height: 100vh;
+    overflow:hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A2633;
+    text-align: center;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80dvw;
+    height: 80dvh;
+    border: 2px solid white;
+    gap: 20px;
+}
+
+.box1{
+    font-size: 4rem;
+}
+.box2{
+    font-size: 1.5rem;
+}
+
+.metamask, .wallet{
+    background-color: #263645;
+    width: 40vw;
+    height: 7vh;
+    border-radius: 1rem;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box6 input{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.connect_button{
+    height: 7vh;
+    width: 25vw;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #388FE5;
+    border: 2px solid white;
+    color: white;
+}
+
