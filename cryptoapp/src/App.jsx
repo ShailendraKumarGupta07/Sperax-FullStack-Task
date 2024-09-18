@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ConnectionPage from './components/walletconnectionpage/ConnectionPage'
 import DashboardPage from './components/Dashboard Page/DashboardPage'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
     {/* <ConnectionPage></ConnectionPage> */}
     <DashboardPage></DashboardPage>
+    {/* <Navbar></Navbar> */}
     </>
   )
 }

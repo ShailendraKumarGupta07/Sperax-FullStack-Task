@@ -2,10 +2,12 @@ import React from 'react'
 import DatePicker from "react-datepicker";
 import style from '../Dashboard Page/DashboardPage.module.css'
 import { FaPlus } from 'react-icons/fa';
+import Navbar from '../Navbar/Navbar';
 
 const DashboardPage = () => {
   return (
     <>
+    <Navbar></Navbar>
     <div className={style.dashboard_wrapper}>
         <div className={style.left}>
             <div className={style.left_header}>

@@ -1,0 +1,33 @@
+.navbar_wrapper{
+    display: flex;
+    height: 10dvh;
+    width: 100dvw;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #364D63;
+    background-color: #1A2633;
+    color: white;
+}
+.navbar_left, .navbar_right{
+    display: flex;
+    padding: 20px;
+
+}
+.navabr_left_header{
+    font-size: 2rem;
+}
+
+.navbar_navigate{
+    display: flex;
+    li{
+        width: 150px;
+        list-style: none;
+        font-size: 1.2rem;
+        text-align: center;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
