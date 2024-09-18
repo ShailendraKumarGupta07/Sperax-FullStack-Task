@@ -8,8 +8,8 @@ import DashboardPage from './components/Dashboard Page/DashboardPage'
 function App() {
   return (
     <>
-    <ConnectionPage></ConnectionPage>
-    {/* <DashboardPage></DashboardPage> */}
+    {/* <ConnectionPage></ConnectionPage> */}
+    <DashboardPage></DashboardPage>
     </>
   )
 }
